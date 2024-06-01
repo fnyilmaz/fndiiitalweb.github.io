@@ -1,0 +1,131 @@
+.welcomeSection {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 5rem;
+    
+
+}
+
+.welcomeSection .welcome-content-1 {
+    max-width: 40%;
+}
+
+.welcomeSection .welcome-content-1 h1 {
+    font-size: 6rem;
+    font-weight: 600;
+}
+
+.welcomeSection .welcome-content-2 {
+    max-width: 40%;
+}
+
+.welcomeSection .welcome-content-2 div {
+    margin-bottom: 5rem;
+    background-color: var(--color3);
+    padding: 1.5rem;
+    box-shadow: var(--shadowbox1);
+    border-radius: 1rem;
+   
+}
+
+.welcomeSection .welcome-content-2 img {
+    width: 4rem;
+}
+
+.welcomeSection .welcome-content-2 h2 {
+    font-size: 2rem;
+    font-weight: 500;
+}
+
+.welcomeSection .welcome-content-2 p {
+    font-size: 1.8rem;
+    font-weight: 400;
+}
+
+
+
+
+
+
+@media only screen and (max-width: 1024px) {
+
+    .welcomeSection{
+        padding: 3rem;
+    }
+    
+    .welcomeSection .welcome-content-1 {
+        max-width: 50%;
+    }
+
+    .welcomeSection .welcome-content-1 h1 {
+        font-size: 5rem;
+    }
+
+    .welcomeSection .welcome-content-2 {
+        max-width: 50%;
+    }
+
+    .welcomeSection .welcome-content-2 img {
+        width: 4rem;
+    }
+
+    .welcomeSection .welcome-content-2 h2 {
+        font-size: 2rem;
+    }
+
+    .welcomeSection .welcome-content-2 p {
+        font-size: 1.8rem;
+    }
+
+
+}
+
+
+
+
+@media only screen and (max-width: 768px) {
+    .welcomeSection {
+      flex-direction: column;
+      text-align: center;
+      justify-content: center;
+      padding: 1.5rem;
+    }
+
+    .welcomeSection .welcome-content-1 {
+        max-width: 80%;
+        margin-bottom: 5rem;
+
+    }
+
+    .welcomeSection .welcome-content-1 h1 {
+        font-size: 4.5rem;
+        font-weight: 700;
+    }
+
+    .welcomeSection .welcome-content-2 {
+        max-width: 80%;
+        display: flex;
+        flex-direction: column;
+        
+        
+    }
+
+}
+
+
+
+
+
+@media only screen and (max-width: 375px) {
+    .welcomeSection .welcome-content-1 h1 {
+        font-size: 4rem;
+        font-weight: 700;
+    }
+    
+    
+   }
+   
+   @media only screen and (max-width:230px){
+  
+   }

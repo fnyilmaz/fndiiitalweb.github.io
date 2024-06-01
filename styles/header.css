@@ -1,0 +1,78 @@
+/* Header */
+
+.header {
+    display: flex;
+    font-size: 2rem;
+    justify-content: space-between;
+    align-items: center;
+    padding: 3rem 5rem 1rem;
+    box-shadow: var(--shadowbox1);
+}
+
+.header .baslik {
+    font-size: 4rem;
+    font-weight: 600;
+    color: var(--color1);
+}
+
+.header .baslik:hover {
+    color: var(--color2);
+}
+
+.header .buttons {
+    display: flex;
+    align-items: center;
+}
+
+.header .navbar a {
+    color: var(--color1);
+    margin-left: 2rem;
+    font-weight: 600;
+    font-size: 2rem;
+}
+
+.header .navbar a:hover {
+    color: var(--color2);
+}
+
+.header .buton-contact {
+    background-color: var(--color1);
+    color: white;
+    padding: 1rem 2.5rem;
+    border-radius: 3rem;
+    box-shadow: var(--shadowbox1);
+}
+
+.header .buton-contact:hover {
+    background-color: var(--color2);
+}
+
+@media only screen and (max-width: 1024px) {
+    .header {
+        padding: 3rem;
+    }
+
+    .header .navbar {
+        display: none;
+    }
+
+    .ham-menu {
+        display: block;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .header {
+        padding: 1.5rem;
+    }
+}
+
+@media only screen and (max-width: 375px) {
+    .header {
+        flex-direction: column;
+    }
+
+    .header .buttons {
+        margin-top: 1rem;
+    }
+}

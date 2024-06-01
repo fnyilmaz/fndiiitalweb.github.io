@@ -1,0 +1,59 @@
+@import url('header.css');
+@import url('welcomesection.css');
+@import url('2ndsection.css');
+@import url('hammenu.css');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+:root {
+    --color1: #2F323A;
+    --color2: #fc5130;
+    --color3: #ffffff;
+    --color4: #E5E5E5;
+
+    --shadowbox1: 5px 5px 10px -5px #2F323A;
+
+
+}
+
+html {
+    font-size: 62.5%;
+    color: var(--color1);
+    background-color: var(--color3);
+    scroll-behavior: smooth;
+    
+}
+
+* {
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    list-style: none;
+    /* transition: 0.2s ease; */
+}
+
+
+@media only screen and (max-width:768px) {
+
+    html {
+        font-size: 55%;
+    }
+}
+
+
+@media only screen and (max-width: 375px) {
+ html{
+    font-size: 50%;
+ } 
+ 
+ 
+}
+
+@media only screen and (max-width:230px){
+  html{
+    font-size: 35%;
+  }
+}
